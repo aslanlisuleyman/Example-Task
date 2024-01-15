@@ -1,0 +1,48 @@
+.mainn{
+    height: 1080px;
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg.webp");
+    margin-top: 60px;
+    
+}
+.mainn__left{
+    padding-top: 90px;
+    text-align: center;
+    i{
+        color: rgb(186, 184, 184);
+        font-size: 70px;
+    }
+    h1{
+        color: white;
+        font-size: 50px;
+    }
+}
+
+.we{
+    position: relative;
+}
+.hh::before,
+.hh::after {
+  content: "";
+  position: absolute;
+  top: 90%;
+  width: 20%;
+  height: 2px;
+  background-color: #ffc515; 
+}
+
+.hh::before {
+  left: 20%;
+}
+
+.hh::after {
+  right: 20%;
+}
+.mainn__right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin-top: 60px;
+    margin-left: 22%;
+    gap: 50px;
+}
+

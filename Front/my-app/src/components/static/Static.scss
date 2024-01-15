@@ -1,0 +1,52 @@
+.umu{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+}
+.um{
+    text-align: center;
+}
+.u{
+    padding-top: 120px;
+    text-align: center;
+    h1{
+        font-size: 50px;
+        padding-top: 30px;
+        :after{
+            position: absolute;
+            content: "";
+            width: 277px;
+         height: 1px;
+         background: #ffc515;
+          top: 32px;
+        }
+    }
+    i{
+        font-size: 70px;
+        color: rgb(144, 144, 144);
+    }
+}
+
+.u{
+    position: relative;
+}
+
+.hh::before,
+.hh::after {
+  content: "";
+  position: absolute;
+  top: 90%;
+  width: 20%;
+  height: 2px;
+  background-color: #ffc515; 
+}
+
+.hh::before {
+  left: 17%;
+}
+
+.hh::after {
+  right: 17%;
+}
+

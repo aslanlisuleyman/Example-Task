@@ -1,0 +1,173 @@
+.cardd{
+    width: 400px;
+}
+.l{
+    color: yellow;
+    text-decoration: none;
+}
+.dp{
+    p{
+        color: white;
+    }
+}
+
+
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+    width: 100px;
+    height: 40px;
+  }
+  
+  .cssbuttons-io-button svg {
+    margin-right: 6px;
+  }
+  
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+  }
+
+  .cssbuttons-io-buttonn {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, #f2ff0098 0%, #e9f503ef 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #f2ff0098;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+    width: 100px;
+    height: 40px;
+  }
+  
+  .cssbuttons-io-buttonn svg {
+    margin-right: 6px;
+  }
+  
+  .cssbuttons-io-buttonn:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #f2ff0098;
+  }
+  
+  .cssbuttons-io-buttonn:active {
+    box-shadow: 0 0.3em 1em -0.5em #f2ff0098;
+  }
+  
+
+
+  .button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 62, 62);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+    gap: 2px;
+  }
+  
+  .svgIcon {
+    width: 12px;
+    transition-duration: 0.3s;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .button:hover {
+    transition-duration: 0.3s;
+    background-color: rgb(255, 69, 69);
+    align-items: center;
+    gap: 0;
+  }
+  
+  .bin-top {
+    transform-origin: bottom right;
+  }
+  .button:hover .bin-top {
+    transition-duration: 0.5s;
+    transform: rotate(160deg);
+  }
+  
+.b{
+    display: flex;
+    gap: 10px;
+}
+
+.Btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background: linear-gradient(to right, #8be3fc, #576bff);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 20px 30px -7px rgba(97, 118, 238, 0.5);
+    transition-duration: 0.3s;
+  }
+  
+  .svg {
+    width: 12px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    fill: white;
+    transition-duration: 0.3s;
+  }
+  
+  .Btn:hover {
+    color: transparent;
+  }
+  
+  .Btn:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: 0.3s;
+  }
+  
+  .Btn:active {
+    transform: translate(3px, 3px);
+    transition-duration: 0.3s;
+  }
+  
+.q{
+    text-decoration: none;
+    color: white;
+}

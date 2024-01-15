@@ -1,0 +1,114 @@
+.swip{
+    margin-top: 8%;
+    height: 746px;
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/review-bg.jpg.webp");
+    p{
+        color: white;
+        font-size: 17px;
+    }
+}
+.ice{
+    text-align: center;
+    padding-top: 120px;
+    h1{
+        color: white;
+        font-size: 50px;
+    }
+    i{
+        color: white;
+        font-size: 50px;
+    }
+}
+.p{
+    width: 1100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 12.5%;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    h1{
+        color: white;
+    }
+    h5{
+        color: white;
+        margin-top: 55px;
+       span{
+        color: yellow;
+       }
+    }
+}
+
+.menu{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    i{
+        font-size: 45px;
+    }
+}
+.menus{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    i{
+        color: #d29e01;
+    }
+}
+.im{
+    position: relative;
+    padding-top: 120px;
+    text-align: center;
+    i{
+        font-size: 70px;
+        color: rgb(192, 190, 190);
+    }
+}
+
+.hh::before,
+.hh::after {
+  content: "";
+  position: absolute;
+  top: 90%;
+  width: 20%;
+  height: 2px;
+  background-color: #ffc515; 
+}
+
+.hh::before {
+  left: 17%;
+}
+
+.hh::after {
+  right: 17%;
+}
+
+
+.im p {
+  text-align: center;
+}
+
+.ice{
+    position: relative;
+}
+
+.hu::before,
+.hu::after {
+  content: "";
+  position: absolute;
+  top: 90%;
+  width: 20%;
+  height: 2px;
+  background-color: #ffc515; 
+}
+
+.hu::before {
+  left: 17%;
+}
+
+.hu::after {
+  right: 17%;
+}
