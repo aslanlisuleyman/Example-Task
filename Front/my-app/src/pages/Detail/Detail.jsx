@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
-
+import {Helmet} from "react-helmet";
 const Detail = () => {
     const[data,setData]=useState([])
     const {id}=useParams()
@@ -12,6 +12,11 @@ const Detail = () => {
     },[])
   return (
     <div style={{paddingTop:'30px',marginLeft:'33%',marginBottom:'50px'}}>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Detail-Page</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
 
  <div style={{width:'500px',textAlign:'center'}} class="carddd">
 

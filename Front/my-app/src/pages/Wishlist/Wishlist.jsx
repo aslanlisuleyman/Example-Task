@@ -1,10 +1,15 @@
 import React, { useContext } from 'react'
 import Maincontext from '../../context/context'
-
+import {Helmet} from "react-helmet";
 const Wishlist = () => {
     const {wishlist,removeWishlist,handleDelete}=useContext(Maincontext)
   return (
     <div>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Wishlist-Page</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
 
            
 

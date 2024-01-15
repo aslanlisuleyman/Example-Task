@@ -3,6 +3,7 @@ import { useFormik } from 'formik';
 import toast from 'react-hot-toast';
 import axios from "axios"
 import Maincontext from '../../context/context';
+import {Helmet} from "react-helmet";
 
 const Add = () => {
   const{filter,handleFilter,searchHandler,deleteHandler}=useContext(Maincontext)
@@ -26,6 +27,11 @@ const Add = () => {
       });
       return (
         <div>
+             <Helmet>
+                <meta charSet="utf-8" />
+                <title>Add-Page</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
  <form style={{paddingTop:'30px'}} onSubmit={formik.handleSubmit}>
           <label htmlFor="firstName">Title</label>
           <input

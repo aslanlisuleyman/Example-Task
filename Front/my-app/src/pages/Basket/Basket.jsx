@@ -1,12 +1,17 @@
 import React, { useContext } from 'react'
 import Maincontext from '../../context/context'
-
+import {Helmet} from "react-helmet";
 const Basket = () => {
     const {basket, handleIncrease,handleDecrease}=useContext(Maincontext)
   
    let totalPrice=0
     return (
     <div>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Basket-Page</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
       <table className="table table-striped">
   <thead>
     <tr>
